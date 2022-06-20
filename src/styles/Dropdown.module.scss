@@ -1,0 +1,73 @@
+.wrapper {
+    min-width: 300px;
+    max-width: 1500px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.dropdown {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px 10px 15px;
+}
+
+.placeholder {
+    color: grey;
+}
+
+.radio {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.radio_label{
+    position: absolute;
+    margin-left: 15px;
+}
+
+.dropdown_image {
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.options {
+    margin-top: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.option_image {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+.option {
+    margin: 0;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.option:hover {
+    background: lightgrey;
+}
+
+.checked {
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.description_option{
+    float:right;
+    margin-left: 250px;
+    color: grey;
+}
